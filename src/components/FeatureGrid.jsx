@@ -1,0 +1,3 @@
+import styles from './FeatureGrid.module.css';
+const features=[{title:'Plan with clarity',text:'Set priorities that everyone can follow.',icon:'Plan'},{title:'Keep momentum',text:'See progress without extra meetings.',icon:'Track'},{title:'Grow together',text:'Build habits that last beyond launch.',icon:'Grow'}];
+export default function FeatureGrid(){return <section id="features" aria-labelledby="features-title"><h2 id="features-title">Everything in one calm workspace</h2><div className={styles.grid}>{features.map(item=><article className={styles.card} key={item.icon}><img src={`/Icon_${item.icon}.svg`} alt="" width="76" height="76"/><h3>{item.title}</h3><p>{item.text}</p></article>)}</div></section>}

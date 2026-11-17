@@ -1,0 +1,2 @@
+import styles from './Hero.module.css';
+export default function Hero(){return <section className={styles.hero} aria-labelledby="hero-title"><div><p>WORK SMARTER</p><h1 id="hero-title">Make room for your best work.</h1><p>Simple planning tools and thoughtful routines that help busy teams move from ideas to momentum.</p><a href="#register">Get early access</a></div><img src="/Workspace_Hero.svg" width="380" height="310" alt="Planning workspace illustration"/></section>}

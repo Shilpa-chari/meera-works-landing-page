@@ -1,0 +1,1 @@
+.hero{display:flex;gap:28px;align-items:center;justify-content:space-between;padding:48px 0}.hero h1{font-size:42px;line-height:1.12}.hero img{max-width:48%}/* Recreate desktop and mobile hero exactly using scoped CSS. */
