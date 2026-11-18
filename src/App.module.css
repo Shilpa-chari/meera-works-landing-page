@@ -25,7 +25,6 @@
   min-height: 108px;
   margin: 0 auto;
   padding: 20px 32px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,12 +69,10 @@ input:focus-visible {
 
 .hero {
   min-height: 560px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 60px;
-
   padding: 55px 0;
 }
 
@@ -371,7 +368,6 @@ input:focus-visible {
 ===================================== */
 
 @media (max-width: 900px) {
-
   .header {
     min-height: 90px;
   }
@@ -415,7 +411,6 @@ input:focus-visible {
 ===================================== */
 
 @media (max-width: 600px) {
-
   .main {
     padding: 0 20px;
   }
